@@ -1,0 +1,7 @@
+.MovieCard{
+    color: rgb(194, 11, 163);
+}
+.MovieCard:hover{
+    background-color: rgb(224, 108, 180);
+
+}

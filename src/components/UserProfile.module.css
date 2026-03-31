@@ -1,0 +1,18 @@
+.card{
+    border: 1px solid #800348;
+    border-radius: 20px;
+
+    margin: 30px;
+}
+.card:hover{
+    background-color: rgb(224, 108, 180); /* couleur plus foncée */
+}
+
+.texte{
+    color: #000000;
+    background-color: rgb(245, 128, 208);
+    transition: 0.3s;
+}
+.texte:hover {
+    background-color: rgb(200, 80, 170); /* couleur plus foncée */
+}
