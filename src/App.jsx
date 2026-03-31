@@ -79,7 +79,7 @@ function App() {
       </div>
 
       <div>
-        <h1>movie list</h1>
+        <h1>movieSs list</h1>
         {
           movies.map((movie, id) => (
             <MovieCard
