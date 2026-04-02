@@ -1,23 +1,37 @@
 import { NavLink} from "react-router";
+import styles from './NavBar.module.css';
 
 function NavBar(){
     return(
-        <nav>
-          <h1>hetic</h1>
-          <div>
+        <nav className={styles.contact}>
+          <h1></h1>
+          <div  className={styles.navnav}>
             <NavLink
              to="/home" 
             >
                 
                 Home
-            </NavLink>
+            </NavLink >
              <NavLink
               to="/about" 
             >
                 
                 About
-             </NavLink>
+             </NavLink >
+               <NavLink
+              to="/contact" 
+            >
 
+                
+                contact
+             </NavLink>
+             <NavLink
+             to="/favorites" 
+            >
+                
+                favorites
+            </NavLink>
+            
           </div>
 
 

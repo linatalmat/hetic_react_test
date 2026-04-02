@@ -7,13 +7,14 @@ function  UserProfile({firstName,lastName,dob, age}){
    
   return(
     <div className={styles.card}>
-    <p className={styles.texte}>Moi est mes frére-soeurs </p>
+    <p className={styles.texte}> Carte_de_Présentation </p>
     
     
-    <h1> my name is : {firstName}</h1>
-    <h1> my age is : {age} </h1>
-    <h1>my date of birth is : {dob}</h1>
-    <h1>my last name : {lastName}</h1>
+    <h1 className={styles.h1}>Name : {firstName}</h1>
+    <h1 className={styles.h1}>Last name : {lastName}</h1>
+    <h1 className={styles.h1}> Age : {age} </h1>
+    <h1 className={styles.h1}> Date of birth is : {dob}</h1>
+    
     </div>
     
     

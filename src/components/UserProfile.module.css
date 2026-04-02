@@ -1,18 +1,31 @@
 .card{
-    border: 1px solid #800348;
-    border-radius: 20px;
-
-    margin: 30px;
+    background: linear-gradient(135deg, #ffe4ec, #ffd6e8);
+    padding: 30px;
+    border-radius: 30px;
+    width: 320px;
+    margin: 30px auto;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 .card:hover{
-    background-color: rgb(224, 108, 180); /* couleur plus foncée */
+  transform: translateY(-5px);
 }
 
 .texte{
-    color: #000000;
-    background-color: rgb(245, 128, 208);
-    transition: 0.3s;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d63384;
+    margin-bottom: 15px;
 }
-.texte:hover {
-    background-color: rgb(200, 80, 170); /* couleur plus foncée */
+
+.h1{
+    font-size: 16px;
+    color: #6a0572;
+    margin: 8px 0;
+    font-weight: 500;
+}
+.h1:hover{
+    color: #ff4da6;
+    transition: 0.3s;
 }
