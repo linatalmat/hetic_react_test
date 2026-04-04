@@ -24,7 +24,11 @@ function Home() {
 
             <div>
                 <h1  className="mine"> Présentation</h1>
-                <p  className="mine">Voila ma petite famille je vous presente mes deux soeurs et mon frére et moi bien sur </p>
+                <p  className="mine">Je vous présente ma petite famille, qui occupe une place très importante dans ma vie. Elle est composée de mes deux sœurs, de mon frère, et bien sûr de moi-même. Chacun de nous a sa propre personnalité, mais nous partageons des valeurs communes comme le respect, la solidarité et l’amour familial.
+
+                   Mes sœurs sont des personnes sur qui je peux toujours compter, elles m’apportent beaucoup de soutien et de conseils au quotidien. Mon frère, quant à lui, apporte une énergie différente à notre famille, avec qui je partage des moments de complicité et de rire.
+
+                    Ensemble, nous formons une famille unie, où chacun trouve sa place et contribue à créer une ambiance chaleureuse et bienveillante. Cette relation familiale est pour moi une source de motivation et de force dans ma vie de tous les jours.</p>
             </div>
             <div>
                 

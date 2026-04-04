@@ -35,6 +35,31 @@ function About(){
                       compétences techniques solides</p>
 
         </div>
+        
+       
+        <div className="column">
+          <h2 className="h11">🎯 Centres d’intérêt</h2>
+          <p className="me">
+            Je suis passionnée par les activités créatives, notamment la danse,
+            le chant et le dessin. Ces passions me permettent d’exprimer ma créativité,
+            de développer mon imagination et de garder un bon équilibre personnel.
+          </p>
+        </div>
+
+        
+        
+        <div className="column">
+          <h2 className="h11">⚽ Sport</h2>
+          <p className="me">
+            J’ai pratiqué plusieurs activités sportives : deux ans de kickboxing,
+            deux ans de natation et trois ans de gymnastique.
+            Ces expériences m’ont permis de développer discipline,
+            persévérance et esprit de dépassement de soi.
+          </p>
+        </div>
+
+      
+   
         </>
     );
 }

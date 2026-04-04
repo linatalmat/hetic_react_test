@@ -87,3 +87,41 @@ body{
   margin-top: 30px;
   font-size: 28px;
 }
+.parents-section{
+  padding: 50px;
+  text-align: center;
+  background: rgb(201, 139, 178)a;
+}
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: darkmagenta;
+}
+.parents-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.parent-card {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  background: linear-gradient(135deg, #ffd6e8, #ffc0d6);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.parent-card:hover {
+  transform: translateY(-10px);
+}
+.parent-card h2 {
+  margin-bottom: 15px;
+  color: #b3005c;
+}
+.parent-card p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
